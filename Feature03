@@ -1,0 +1,13 @@
+Feature: Download example code 
+	Scenario: User is looking for java code of inheritance 
+		Given the user is on google homepage
+		And goes to TutorialsPointExamples website 
+		//Then selects core java option
+		Then Opens inheritance in java subtopic 
+		But the user opens the link in new the tab
+		
+	Scenario: User downloads the code
+		Given the user is on java inheritance website
+		Then the user selects one of the examples to downloads
+		And the file is downloaded
+		
